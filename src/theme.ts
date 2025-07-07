@@ -46,5 +46,23 @@ export const theme = createTheme({
         },
       },
     },
+    MuiAppBar: {
+      defaultProps: {
+        elevation: 0,
+        color: "inherit",
+      },
+      styleOverrides: {
+        root: {
+          borderRadius: 0,
+        },
+      },
+    },
+    MuiDrawer: {
+      styleOverrides: {
+        paper: {
+          borderRadius: 0,
+        },
+      },
+    },
   },
 });
